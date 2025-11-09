@@ -11,7 +11,6 @@ utilizando **Python** para investigar y extraer conclusiones significativas de c
 con campañas de marketing directo de una institución bancaria portuguesa. 
 El foco está en identificar los factores que influyen en la suscripción de un depósito a plazo por parte de los clientes.
 
----
 
 # ⚙️ Requisitos y Dependencias
 
@@ -22,21 +21,22 @@ Para ejecutar el análisis es necesario contar con un entorno de Python configur
 * Pandas
 * Visual Studio Code (o cualquier IDE de preferencia)
 
+
 # Librerías de Python
 Las dependencias requeridas para ejecutar el script `Proyecto Python for Data.02.py` son:
 
-```bash
-pandas
-numpy
-matplotlib
-seaborn
-openpyxl  # Para leer archivos .xlsx
+ - pandas
+ - numpy
+ - matplotlib
+ - seaborn
+ - openpyxl  # Para leer archivos .xlsx
 
-# Puedes instalarlas usando pip:
+
+### Puedes instalarlas usando pip:
 
 pip install pandas numpy matplotlib seaborn openpyxl
 
-# 📂 Estructura del Proyecto
+### 📂 Estructura del Proyecto
 El repositorio debe seguir la siguiente estructura, conforme a los requisitos de entrega:
 /
 ├── README.md                           (Este archivo con el resumen y las instrucciones)
@@ -84,17 +84,15 @@ El análisis exploratorio reveló los siguientes patrones y conclusiones operaci
   2.- Contexto Macroeconómico: Las variables macroeconómicas como euribor3m (tasa de interés) y nr.employed (número de empleados) muestran
        una relación negativa con la tasa de suscripción (y). Esto sugiere que la eficiencia de la campaña es inversamente proporcional a la fortaleza del ciclo económico.
 
-  3.- Eficiencia Operacional de Campaña: La tasa de suscripción cae notablemente a partir de un umbral específico de contactos en la campaña (campaign).
-
+  3.- Eficiencia Operacional de Campaña: La tasa de suscripción cae notablemente a partir de un umbral específico de contactos en la campaña (campaign). 
       Recomendación Operacional: Se recomienda no superar 3 ó 4 contactos por cliente, ya que el esfuerzo adicional genera una
-       conversión marginal decreciente.
+      conversión marginal decreciente.
 
-  4.- Segmentación por Demografía: Se observaron diferencias claras en la tasa de suscripción según el estado civil y la ocupación:
-
+  4.- Segmentación por Demografía: Se observaron diferencias claras en la tasa de suscripción según el estado civil y la ocupación: 
       Estado Civil: El segmento 'desconocido' o 'viudo(a)' presenta las tasas más altas, mientras que los 'casados' muestran una tasa inferior.
-
       Ocupación: El top de suscripción se encuentra en los segmentos 'student' y 'retired', mientras que ocupaciones como 'services' o 'blue-collar'
     tienen las tasas más bajas (incluir porcentajes específicos del output).
+
 
 
 
